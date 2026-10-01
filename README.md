@@ -1,22 +1,20 @@
 ### Hi, I am Janus Dominic.
 
-I am a software developer based in Zamboanga City, Philippines. I write backend services, build web applications, and develop machine learning scripts. I work with Mihatech and deploy software across modern hosting environments.
+I am a software developer based in Zamboanga City, Philippines. I build web applications, forensic utilities, and backend services using Python, JavaScript, TypeScript, and SQL.
 
-### Technologies
+### Featured Projects
+
+- **forensic-dgp:** A digital forensics toolkit for artifact analysis, data extraction, and verification pipelines.
+- **skill v2:** An interactive web application built with JavaScript to assess, organize, and track technical competencies.
+- **FreshCart (MP):** A full-stack e-commerce marketplace featuring product catalog filtering, cart state persistence, and checkout logic.
+
+### Tech Stack
 
 - **Languages:** Python, JavaScript, TypeScript, C++, SQL
-- **Web Development:** React, Next.js, Node.js
-- **Machine Learning & Data:** Jupyter Notebooks, Python
-- **Hosting & Tools:** Git, Docker, Linux, Cloudflare Pages
+- **Web & Backend:** Node.js, Express, React, Next.js
+- **Tools & Deployment:** Git, Linux, Docker, Cloudflare Pages
 
-### Projects
-
-- **FinalProjectAppDev-ML:** Machine learning pipelines, model training, and data evaluation built in Jupyter Notebooks.
-- **skills-v2:** Application logic and interactive components built with JavaScript.
-- **dominic_janus_cyclic:** Algorithmic routines and data structure implementations written in C++.
-
-### Links
+### Connect
 
 - **Portfolio:** https://dominicfolio.pages.dev/
 - **Organization:** https://mihatechnologies.com/
-- **GitHub:** https://github.com/janusinss
