@@ -1,16 +1,22 @@
-## Hi there 👋
+### Hi, I am Janus Dominic.
 
-<!--
-**janusinss/janusinss** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am a software developer based in Zamboanga City, Philippines. I write backend services, build web applications, and develop machine learning scripts. I work with Mihatech and deploy software across modern hosting environments.
 
-Here are some ideas to get you started:
+### Technologies
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **Languages:** Python, JavaScript, TypeScript, C++, SQL
+- **Web Development:** React, Next.js, Node.js
+- **Machine Learning & Data:** Jupyter Notebooks, Python
+- **Hosting & Tools:** Git, Docker, Linux, Cloudflare Pages
+
+### Projects
+
+- **FinalProjectAppDev-ML:** Machine learning pipelines, model training, and data evaluation built in Jupyter Notebooks.
+- **skills-v2:** Application logic and interactive components built with JavaScript.
+- **dominic_janus_cyclic:** Algorithmic routines and data structure implementations written in C++.
+
+### Links
+
+- **Portfolio:** https://dominicfolio.pages.dev/
+- **Organization:** https://mihatechnologies.com/
+- **GitHub:** https://github.com/janusinss
