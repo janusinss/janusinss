@@ -1,0 +1,101 @@
+{
+  "profile": {
+    "name": "Janus Dominic",
+    "hero_title": "Systems & Craft",
+    "handle": "@janusinss",
+    "username": "janusinss",
+    "status_badge": "BUILDING",
+    "headline": "Software developer building web apps, forensic utilities & backend services.",
+    "now": "shipping full-stack web apps & forensic AI",
+    "working_at": "MIHA Technologies",
+    "focus": "full-stack & AI",
+    "status": "building",
+    "location": "Zamboanga, PH",
+    "portfolio_url": "https://dominicfolio.pages.dev/"
+  },
+  "featured_projects": [
+    {
+      "repo": "forensic-dgp",
+      "display_name": "forensic-dgp",
+      "owner": "janusinss",
+      "description": "A digital forensics toolkit for artifact analysis, data extraction, and verification pipelines.",
+      "language": "Python",
+      "lang_color": "#38bdf8",
+      "category": "forensics · ai",
+      "chart_label": "Commit cadence",
+      "cta": "VIEW REPO",
+      "theme": "cyan",
+      "url": "https://github.com/janusinss/forensic-dgp"
+    },
+    {
+      "repo": "skill-v2",
+      "display_name": "skill v2",
+      "owner": "janusinss",
+      "description": "An interactive web application built with JavaScript to assess, organize, and track technical competencies.",
+      "language": "JavaScript",
+      "lang_color": "#facc15",
+      "category": "web app",
+      "chart_label": "Commit cadence",
+      "cta": "VIEW SOURCE",
+      "theme": "amber",
+      "url": "https://github.com/janusinss"
+    }
+  ],
+  "banner_image": {
+    "file": "banner-koi.png",
+    "alt": "Janus Dominic — Full-Stack Developer @ MIHA Technologies",
+    "url": "https://dominicfolio.pages.dev/"
+  },
+  "stack": [
+    {
+      "category": "languages",
+      "items": [
+        { "name": "Python", "badge": "Py", "color": "#3b82f6", "text": "#fef08a" },
+        { "name": "JavaScript", "badge": "JS", "color": "#facc15", "text": "#0a0c10" },
+        { "name": "TypeScript", "badge": "TS", "color": "#3178c6", "text": "#f0f6fc" },
+        { "name": "C++", "badge": "C+", "color": "#60a5fa", "text": "#0a0c10" },
+        { "name": "SQL", "badge": "DB", "color": "#38bdf8", "text": "#0a0c10" }
+      ]
+    },
+    {
+      "category": "web & backend",
+      "items": [
+        { "name": "React", "badge": "Re", "color": "#22d3ee", "text": "#0a0c10" },
+        { "name": "Next.js", "badge": "Nx", "color": "#f0f6fc", "text": "#0a0c10" },
+        { "name": "Node.js", "badge": "Nd", "color": "#4ade80", "text": "#0a0c10" },
+        { "name": "Express", "badge": "Ex", "color": "#94a3b8", "text": "#0a0c10" },
+        { "name": "Tailwind", "badge": "Tw", "color": "#38bdf8", "text": "#0a0c10" },
+        { "name": "Supabase", "badge": "Sb", "color": "#34d399", "text": "#0a0c10" }
+      ]
+    },
+    {
+      "category": "tools & deploy",
+      "items": [
+        { "name": "Git", "badge": "Gt", "color": "#f97316", "text": "#0a0c10" },
+        { "name": "Linux", "badge": ">_", "color": "#facc15", "text": "#0a0c10" },
+        { "name": "Docker", "badge": "Dk", "color": "#38bdf8", "text": "#0a0c10" },
+        { "name": "Cloudflare Pages", "badge": "CF", "color": "#fb923c", "text": "#0a0c10" }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "label": "dominicfolio.pages.dev",
+      "url": "https://dominicfolio.pages.dev/",
+      "icon": "globe",
+      "color": "#38bdf8"
+    },
+    {
+      "label": "mihatechnologies.com",
+      "url": "https://mihatechnologies.com/",
+      "icon": "building-2",
+      "color": "#facc15"
+    },
+    {
+      "label": "github.com/janusinss",
+      "url": "https://github.com/janusinss",
+      "icon": "github",
+      "color": "#e6edf3"
+    }
+  ]
+}

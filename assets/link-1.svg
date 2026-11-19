@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="224" height="36" viewBox="0 0 224 36" role="img" aria-label="dominicfolio.pages.dev">
+  <rect x="0.5" y="0.5" width="223" height="35" rx="5" fill="#0a0d12" stroke="#242b35"/>
+  <svg x="12" y="10.5" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20M2 12h20"/></svg>
+  <text x="35" y="22.5" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5">dominicfolio.pages.dev</text>
+  <text x="209" y="22" text-anchor="end" fill="#38bdf8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12">&#8599;</text>
+</svg>
