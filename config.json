@@ -39,6 +39,19 @@
       "cta": "VIEW SOURCE",
       "theme": "amber",
       "url": "https://github.com/janusinss"
+    },
+    {
+      "repo": "Motion-DESIGNER",
+      "display_name": "Motion-DESIGNER",
+      "owner": "janusinss",
+      "description": "Motion design and kinetic animation system repository — syncs live repo details via GitHub Actions.",
+      "language": "TypeScript",
+      "lang_color": "#a78bfa",
+      "category": "motion · ui",
+      "chart_label": "Commit cadence",
+      "cta": "VIEW REPO",
+      "theme": "violet",
+      "url": "https://github.com/janusinss/Motion-DESIGNER"
     }
   ],
   "banner_image": {

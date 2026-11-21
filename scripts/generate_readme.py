@@ -62,6 +62,15 @@ THEMES: dict[str, dict[str, str]] = {
         "accent": "#facc15",
         "glow": "#eab308",
     },
+    "violet": {
+        "dim": "#4c1d95",
+        "mid": "#7c3aed",
+        "high": "#a78bfa",
+        "peak": "#ede9fe",
+        "spark": "#38bdf8",
+        "accent": "#a78bfa",
+        "glow": "#8b5cf6",
+    },
 }
 
 
@@ -468,8 +477,10 @@ def synthetic_wave(seed: int, points: int = 96, mode: str = "hero") -> list[floa
             v = base + mod + spike
         elif seed == 1:
             v = 0.82 * math.exp(-t * 4.2) + 0.34 * math.exp(-((t - 0.55) / 0.16) ** 2) + 0.16 * (0.5 + 0.5 * math.sin(t * 28))
-        else:
+        elif seed == 2:
             v = 0.24 + 0.62 * math.exp(-((t - 0.62) / 0.11) ** 2) + 0.48 * math.exp(-((t - 0.80) / 0.09) ** 2) + 0.26 * math.exp(-((t - 0.28) / 0.12) ** 2) + 0.08 * math.sin(t * 35)
+        else:
+            v = 0.20 + 0.72 * math.exp(-((t - 0.76) / 0.16) ** 2) + 0.42 * math.exp(-((t - 0.36) / 0.18) ** 2) + 0.08 * math.sin(t * 24)
         vals.append(max(0.06, min(1.0, v)))
     return vals
 
@@ -547,7 +558,7 @@ def generate_all(config_path: Path, out_dir: Path, mode: str) -> None:
     config = json.loads(config_path.read_text(encoding="utf-8"))
     assets_dir = out_dir / "assets"
     assets_dir.mkdir(parents=True, exist_ok=True)
-    for old_f in ("project-3.svg", "project-4.svg", "creative-signal.svg", "creative-pulse.svg"):
+    for old_f in ("project-4.svg", "creative-signal.svg", "creative-pulse.svg"):
         old_p = assets_dir / old_f
         if old_p.exists():
             old_p.unlink()
@@ -594,7 +605,7 @@ def generate_all(config_path: Path, out_dir: Path, mode: str) -> None:
     )
 
     rendered_cards: list[dict[str, str]] = []
-    for idx, proj in enumerate(projects_cfg[:2], start=1):
+    for idx, proj in enumerate(projects_cfg[:3], start=1):
         slug = proj["repo"]
         live_repo = live_repos_by_name.get(slug.lower())
         if use_live and live_repo:
@@ -658,7 +669,7 @@ def generate_all(config_path: Path, out_dir: Path, mode: str) -> None:
         )
         rendered_links.append({"filename": fname, "url": link["url"], "alt": link["label"]})
 
-    c1, c2 = rendered_cards
+    c1, c2, c3 = rendered_cards
     pills_html = "\n  ".join(
         f'<a href="{l["url"]}"><img src="./assets/{l["filename"]}" alt="{escape(l["alt"])}" /></a>'
         for l in rendered_links
@@ -675,9 +686,11 @@ def generate_all(config_path: Path, out_dir: Path, mode: str) -> None:
   </a>
 </p>
 
-<p align="center">
+<p align="left">
   <a href="{c1["url"]}"><img src="./assets/{c1["filename"]}" width="49.3%" alt="{escape(c1["alt"])}" /></a>
   <a href="{c2["url"]}"><img src="./assets/{c2["filename"]}" width="49.3%" alt="{escape(c2["alt"])}" /></a>
+  <br />
+  <a href="{c3["url"]}"><img src="./assets/{c3["filename"]}" width="49.3%" alt="{escape(c3["alt"])}" /></a>
 </p>
 
 <p align="center">
