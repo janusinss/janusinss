@@ -12,7 +12,7 @@
 
 <p align="left">
   <a href="https://github.com/janusinss/forensic-dgp"><img src="./assets/project-1.svg" width="49.3%" alt="forensic-dgp" /></a>
-  <a href="https://github.com/janusinss"><img src="./assets/project-2.svg" width="49.3%" alt="skill v2" /></a>
+  <a href="https://github.com/janusinss/skills-v2"><img src="./assets/project-2.svg" width="49.3%" alt="skill v2" /></a>
   <br />
   <a href="https://github.com/janusinss/Motion-DESIGNER"><img src="./assets/project-3.svg" width="49.3%" alt="Motion-DESIGNER" /></a>
 </p>
