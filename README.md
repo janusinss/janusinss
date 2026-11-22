@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-  <a href="https://dominicfolio.pages.dev/"><img src="./assets/link-1.svg" alt="dominicfolio.pages.dev" /></a>
+  <a href="https://janusfolio.pages.dev/"><img src="./assets/link-1.svg" alt="janusfolio.pages.dev" /></a>
   <a href="https://mihatechnologies.com/"><img src="./assets/link-2.svg" alt="mihatechnologies.com" /></a>
   <a href="https://github.com/janusinss"><img src="./assets/link-3.svg" alt="github.com/janusinss" /></a>
 </p>
